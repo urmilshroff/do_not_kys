@@ -6,6 +6,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v7.app.AppCompatActivity
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -18,17 +19,17 @@ class MainActivity:AppCompatActivity()
         {
             R.id.navigation_home->
             {
-                message.setText(R.string.title_home)
+                textViewMessage.setText(R.string.title_home)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_dashboard->
             {
-                message.setText(R.string.title_dashboard)
+                textViewMessage.setText(R.string.title_dashboard)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_notifications->
             {
-                message.setText(R.string.title_notifications)
+                textViewMessage.setText(R.string.title_notifications)
                 return@OnNavigationItemSelectedListener true
             }
         }
@@ -54,6 +55,7 @@ class MainActivity:AppCompatActivity()
 //
 //        else
 //        {
+        Toast.makeText(this,"Calling AASRA suicide hotline...",Toast.LENGTH_SHORT).show()
             val callIntent=Intent(Intent.ACTION_CALL)
             callIntent.data=Uri.parse("tel:+919820872972")
             startActivity(callIntent)

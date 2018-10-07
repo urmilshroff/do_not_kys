@@ -4,4 +4,5 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="welcome_message">Hey, you! Don\'t kill yourself!</string>
+    <string name="call_sid">If you\'re feeling low, and you think you wanna blow, be sure to call the number below!</string>
 </resources>
