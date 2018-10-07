@@ -55,7 +55,7 @@ class MainActivity:AppCompatActivity()
 //        else
 //        {
             val callIntent=Intent(Intent.ACTION_CALL)
-            callIntent.data=Uri.parse("tel:+91-22-27546669")
+            callIntent.data=Uri.parse("tel:+919820872972")
             startActivity(callIntent)
         //}
 
