@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity
 
 class SplashScreenActivity:AppCompatActivity()
 {
-    val delay:Long=2000 //shows splash screen for 2 seconds
+    val delay:Long=3500 //shows splash screen for 3.5 seconds
 
     override fun onCreate(savedInstanceState:Bundle?)
     {
