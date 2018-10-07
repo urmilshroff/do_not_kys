@@ -3,6 +3,7 @@ package com.urmilshroff.do_not_kys
 import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v7.app.AppCompatActivity
+import android.telephony.TelephonyManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity:AppCompatActivity()
@@ -36,5 +37,6 @@ class MainActivity:AppCompatActivity()
         setContentView(R.layout.activity_main)
 
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
+        floatingActionButtonCallHelpline.setOnClickListener()
     }
 }
