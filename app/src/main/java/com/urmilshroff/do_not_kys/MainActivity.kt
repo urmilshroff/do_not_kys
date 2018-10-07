@@ -4,7 +4,11 @@ import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v7.app.AppCompatActivity
 import android.telephony.TelephonyManager
+import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
+import android.content.Intent
+import android.net.Uri
+
 
 class MainActivity:AppCompatActivity()
 {
@@ -37,6 +41,13 @@ class MainActivity:AppCompatActivity()
         setContentView(R.layout.activity_main)
 
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
-        floatingActionButtonCallHelpline.setOnClickListener()
+        floatingActionButtonCallHelpline.setOnClickListener(callHelpline())
+    }
+
+    fun callHelpline(): View.OnClickListener? {
+        val callIntent = Intent(Intent.ACTION_CALL)
+        callIntent.data = Uri.parse("tel:+91-22-27546669")
+        startActivity(callIntent)
+
     }
 }

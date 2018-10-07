@@ -37,7 +37,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/urmilshroff/do_not_kys/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="508">
-              <caret line="39" column="61" lean-forward="true" selection-start-line="39" selection-start-column="61" selection-end-line="40" selection-end-column="5" />
+              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+              <folding>
+                <element signature="e#36#340#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -2769,7 +2772,10 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/urmilshroff/do_not_kys/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
-          <caret line="39" column="61" lean-forward="true" selection-start-line="39" selection-start-column="61" selection-end-line="40" selection-end-column="5" />
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding>
+            <element signature="e#36#340#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
