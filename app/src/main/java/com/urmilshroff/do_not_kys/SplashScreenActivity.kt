@@ -21,4 +21,9 @@ class SplashScreenActivity:AppCompatActivity()
                 finish()
             },delay)
     }
+
+    override fun onBackPressed()
+    {
+        finish()
+    }
 }
