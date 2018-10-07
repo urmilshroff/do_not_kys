@@ -43,4 +43,25 @@
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navigation" />
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButtonCallHelpline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:clickable="true"
+        android:src="@drawable/ic_call_helpline"
+        app:elevation="@dimen/activity_horizontal_margin"
+        app:fabSize="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toStartOf="@+id/navigation"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87"
+        app:rippleColor="@color/colorPrimary"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
 </android.support.constraint.ConstraintLayout>
